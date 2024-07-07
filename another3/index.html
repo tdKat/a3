@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1>Car Shop</h1>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Book an Appointment</h1>
+        <form id="appointmentForm">
+            <div class="form-group">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label><br>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="car_color">Car Color:</label><br>
+                <input type="text" id="car_color" name="car_color" required>
+            </div>
+            <div class="form-group">
+                <label for="car_license">Car License Number:</label><br>
+                <input type="text" id="car_license" name="car_license" required>
+            </div>
+            <div class="form-group">
+                <label for="car_engine_number">Car Engine Number:</label><br>
+                <input type="text" id="car_engine_number" name="car_engine_number" required>
+            </div>
+            <div class="form-group">
+                <label for="appointment_date">Appointment Date:</label><br>
+                <input type="date" id="appointment_date" name="appointment_date" required>
+            </div>
+            <div class="form-group">
+                <label for="mechanic_id">Select Mechanic:</label><br>
+                <select id="mechanic_id" name="mechanic_id" required>
+                </select>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

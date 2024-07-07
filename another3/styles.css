@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px 10px;
+}
+
+.container {
+    padding: 20px;
+    background: #ccc;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.form-group input,
+.form-group select {
+    width: 90%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #007bff;
+    border: 1px solid #333;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover {
+    background: #0056b3;
+}

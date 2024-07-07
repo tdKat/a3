@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1>Car Shop Admin Panel</h1>
+        </div>
+    </nav>
+
+    <form id="addMechanicForm">
+        <h2>Add Mechanic</h2>
+        <label for="mechanic_name">Mechanic Name:</label>
+        <input type="text" id="mechanic_name" name="mechanic_name" required>
+        
+        <label for="daily_limit">Daily Limit:</label>
+        <input type="number" id="daily_limit" name="daily limit" required>
+        
+        <button type="submit">Add Mechanic</button>
+    </form>
+
+    <h2>Manage Mechanics</h2>
+    <table id="mechanicsTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Daily limit</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <h2>Manage Appointments</h2>
+    <table id="appointmentsTable">
+        <thead>
+            <tr>
+                <th>customer name</th>
+                <th>appointment date</th>
+                <th>mechanic name</th>
+                <th>car license</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="script1.js"></script>
+</body>
+</html>
